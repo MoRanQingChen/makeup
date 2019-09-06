@@ -8048,7 +8048,7 @@
             shadeMatching: !1
         }),
         r(i, f.MODULE_MAKEUP, {
-            domain: ['localhost:9000'],
+            domain: [location.host],
             path: "/com/tracker/",
             version: "2.0.5",
             cdnResource: "web-2.0.0",
@@ -17365,7 +17365,7 @@
                   , e = "url(" + this.uiImage(a.CMS_LOADER_BG_IMAGE) + ")"
                   , n = this.uiOption(a.UI_OPTION_LOADER_BG_COLOR);
                 return {
-                    background: t ? e : n
+                    background: t ? e : '#FBFBF9'
                 }
             }
         })
@@ -29579,7 +29579,7 @@
 }
 , function(t, e, n) {
     e = t.exports = n(7)(),
-    e.push([t.i, ".close_container[data-v-f988e736]{position:absolute;left:0;top:0;width:100%;height:22vmin;z-index:100}.close_button[data-v-f988e736]{width:8vmin;position:absolute;top:0;right:0;margin-top:0;margin-right:0;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}", ""])
+    e.push([t.i, ".close_container[data-v-f988e736]{position:absolute;left:0;top:0;width:100%;height:22vmin;z-index:100}.close_button[data-v-f988e736]{width:7vmin;padding: 2vmin;position:absolute;top:0;right:0;margin-top:0;margin-right:0;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}", ""])
 }
 , function(t, e, n) {
     "use strict";
@@ -29618,7 +29618,7 @@
 }
 , function(t, e, n) {
     e = t.exports = n(7)(),
-    e.push([t.i, ".cta-component[data-v-0ee69ff2]{opacity:0;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;position:absolute;bottom:0;z-index:100}.cta_button[data-v-0ee69ff2]{border-radius:50%;background:#fff;box-shadow:0 0 2px 0 rgba(0,0,0,.2)}.cta_button[data-v-0ee69ff2],.cta_button_full[data-v-0ee69ff2]{width:10vmin;height:10vmin;margin:3vmin;position:relative;cursor:pointer}.cta_button>img[data-v-0ee69ff2]{max-height:40%;max-width:60%}.cta_button_full>img[data-v-0ee69ff2]{max-width:100%;max-height:100%}.cta_button>img[data-v-0ee69ff2],.cta_button_full>img[data-v-0ee69ff2]{position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}", ""])
+    e.push([t.i, ".cta-component[data-v-0ee69ff2]{pointer-events:none;opacity:0;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;position:absolute;bottom:0;z-index:100}.cta_button[data-v-0ee69ff2]{border-radius:50%;background:#fff;box-shadow:0 0 2px 0 rgba(0,0,0,.2)}.cta_button[data-v-0ee69ff2],.cta_button_full[data-v-0ee69ff2]{width:10vmin;height:10vmin;margin:3vmin;position:relative;cursor:pointer}.cta_button>img[data-v-0ee69ff2]{max-height:40%;max-width:60%}.cta_button_full>img[data-v-0ee69ff2]{max-width:100%;max-height:100%}.cta_button>img[data-v-0ee69ff2],.cta_button_full>img[data-v-0ee69ff2]{position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}", ""])
 }
 , function(t, e, n) {
     "use strict";
@@ -33906,7 +33906,7 @@
 }
 , function(t, e, n) {
     e = t.exports = n(7)(),
-    e.push([t.i, ".loader_container[data-v-1f89672e]{opacity:0;width:100%;height:100%;position:absolute;left:0;top:0;background:#000;background-size:cover;z-index:1000}", ""])
+    e.push([t.i, ".loader_container[data-v-1f89672e]{width:100%;height:100%;position:absolute;left:0;top:0;background:#000;background-size:cover;z-index:1000}", ""])
 }
 , function(t, e, n) {
     "use strict";
@@ -33939,7 +33939,7 @@
 }
 , function(t, e, n) {
     e = t.exports = n(7)(),
-    e.push([t.i, ".loader[data-v-042a0f47]{--loader-size:10%;width:10%;width:var(--loader-size);height:0;padding-bottom:10%;padding-bottom:var(--loader-size);position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.loader>img[data-v-042a0f47]{max-width:100%}", ""])
+    e.push([t.i, ".loader[data-v-042a0f47]{--loader-size:25%;width:10%;width:var(--loader-size);height:0;padding-bottom:10%;padding-bottom:var(--loader-size);position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.loader>img[data-v-042a0f47]{max-width:100%}", ""])
 }
 , function(t, e, n) {
     "use strict";
@@ -33957,7 +33957,7 @@
             staticClass: "loader"
         }, [n("img", {
             attrs: {
-                src: t.uiImage(t.CMS_GIF_LOADER)
+                src: "./imgs/loading-small.gif"
             }
         })])
     }

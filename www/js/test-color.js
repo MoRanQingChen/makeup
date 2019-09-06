@@ -703,7 +703,7 @@ $(function(){
         case "no_face":
           // alert("NO FACE DETECTED, Please try another image.");
           error_message_title = '没有检测到面部特征';
-          error_message_content = '请换一张图片，重新尝试.';
+          error_message_content = '请更换其他面部图片重试';
           error_button = "重新上传";
           onPhoto = false;
           break;
